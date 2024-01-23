@@ -43,10 +43,14 @@ Use test_connection.py to test the connection to snowflake
 Use the run_query.py script to query Snowflake
 * Open run_query.py in the IDE of your choice
 * Replace query variable value with the query you'd like to run
-* Open up a terminal change directories to your repo, and run the following command:
+* Open up a terminal, change directories to your repo, and run the following command:
 
     ```
     python run_query.py
+### 3. Submit 
+* copy the query id that was output from your script
+* submit a link to your repo in Canvas>Module 3>Lab 1
+
     
 ## Guides, useful resources, references etc.
 * [Ask your classmates](https://uc.instructure.com/courses/1666166/discussion_topics/8564268)
