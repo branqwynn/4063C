@@ -33,7 +33,9 @@ You will learn how to connect to Snowflake and execute a query using python.
             set SNOWFLAKE_PASS=password
             set SNOWFLAKE_USER=username 
             set SNOWFLAKE_ACCT=isa12503.east-us-2.azure
-    * See [Connecting to Snowflake with the Python Connector](https://docs.snowflake.com/en/developer-guide/python-connector/python-connector-connect)
+    * OR See [Connecting to Snowflake with the Python Connector](https://docs.snowflake.com/en/developer-guide/python-connector/python-connector-connect)
+    * [NOTE: You can also use a connections.toml](https://docs.snowflake.com/en/developer-guide/python-connector/python-connector-connect#connecting-using-the-connections-toml-file)
+
 
 
 ### 1. Test the connection
