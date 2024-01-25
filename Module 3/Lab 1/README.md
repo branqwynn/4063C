@@ -20,6 +20,9 @@ You will learn how to connect to Snowflake and execute a query using python.
     * See [Cloning a Repo](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 * Environment variables set
     * Run the following command to add your Snowflake User and Pass to your environment variables
+      * See [How to Set Environment Variable in Windows](https://phoenixnap.com/kb/windows-set-environment-variable)
+      * See [How to Set Environment Variable on Mac](https://phoenixnap.com/kb/set-environment-variable-mac)
+        
         * MAC/LINUX
             ```
             export SNOWFLAKE_PASS='password'
