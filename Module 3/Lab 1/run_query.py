@@ -7,9 +7,9 @@ query = "select user_name, event_timestamp from snowflake.account_usage.login_hi
 
 # Define connection
 ctx = snowflake.connector.connect(
-    user=os.getenv('SNOWFLAKE_USER'),
-    password= os.getenv('SNOWFLAKE_PASS'),
-    account=os.getenv('SNOWFLAKE_ACCT'),
+    user='burrelbn',
+    password= 'm0nKey21',
+    account='isa12503.east-us-2.azure',
     role='ACCOUNTADMIN'
     )
 try:

@@ -36,7 +36,7 @@ You will learn how to connect to Snowflake and execute a query using python.
     * OR See [Connecting to Snowflake with the Python Connector](https://docs.snowflake.com/en/developer-guide/python-connector/python-connector-connect)
     * [NOTE: You can also use a connections.toml](https://docs.snowflake.com/en/developer-guide/python-connector/python-connector-connect#connecting-using-the-connections-toml-file)
 
-
+## Option 1: Running python locally on your machine
 
 ### 1. Test the connection
 Use test_connection.py to test the connection to snowflake
@@ -60,6 +60,30 @@ Create a new file, name it create_database.py, use it to create your own databas
 * Open up a terminal change directories to your repo, and run the following command: 
     ```
     python create_database.py
+## Option 2: Running python in Snowflake
+### 1. Login to Snowflake sandbox 
+[Link to Sandbox](https://isa12503.east-us-2.azure.snowflakecomputing.com/console)
+* Navigate to sandbox and login with your credentials. See Module 2: Snowflake Info for more details.
+
+### 2. Open a python worksheet
+[Link to Sandbox](https://isa12503.east-us-2.azure.snowflakecomputing.com/console)
+* Sign in to Snowflake
+* Open Worksheets
+* Select + » Python Worksheet
+* Select a database and schema (DATA_ANALYTICS.PUBLIC)
+
+### 3. Create a database using sample_snowflake_worksheet.py as a guide
+* Open Worksheets
+* paste code from sample_snowflake_worksheet.py
+* alter code to [create a database](https://docs.snowflake.com/en/sql-reference/sql/create-database)
+* create a database, name it your snowflake username (e.g. 'burrelbn')
+
+
+## Submission 
+* Submit the name of the database you created in the assignment submission text box in Canvas.
+* Post a link to your cloned repo
+
+
 ## Guides, useful resources, references etc.
 * [Ask your classmates](https://uc.instructure.com/courses/1666166/discussion_topics/8564268)
 * [Ask Stack Overflow](https://stackoverflow.com/)
