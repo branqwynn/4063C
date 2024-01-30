@@ -71,6 +71,8 @@ Create a new file, name it create_database.py, use it to create your own databas
 * Open Worksheets
 * Select + » Python Worksheet
 * Select a database and schema (DATA_ANALYTICS.PUBLIC)
+* Select Settings>Return type>'String'
+
 
 ### 3. Create a database using sample_snowflake_worksheet.py as a guide
 * Open Worksheets
